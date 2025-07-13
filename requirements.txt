@@ -10,3 +10,4 @@ python-dotenv>=1.0.0
 nest-asyncio>=1.6.0
 transformers>=4.30.0
 llama-index-embeddings-jinaai>=0.1.3
+together
