@@ -1,0 +1,12 @@
+streamlit>=1.30.0
+llama-index>=0.10.0
+llama-index-llms-together>=0.1.4
+llama-index-vector-stores-weaviate>=0.1.4
+llama-index-postprocessor-sbert-rerank>=0.1.2
+weaviate-client>=4.5.0
+sentence-transformers>=2.2.0
+torch>=2.0.0
+python-dotenv>=1.0.0
+nest-asyncio>=1.6.0
+transformers>=4.30.0
+llama-index-embeddings-jinaai>=0.1.3
