@@ -1,3 +1,25 @@
+# =================================================
+# ATURAN KHUSUS UNTUK PROYEK CHATBOT HUKUM
+# =================================================
+
+# Abaikan file environment yang berisi API Key rahasia
+.env
+
+# Abaikan folder output dari training model (ukurannya besar)
+/results/
+/my_indonesian_q_classifier/
+
+# Abaikan semua file dataset .jsonl yang digenerate oleh skrip
+*.jsonl
+
+# (Opsional) Hapus tanda # di bawah ini jika Anda TIDAK INGIN
+# mengunggah folder berisi semua file PDF Anda ke GitHub.
+# /pdf_hukum_pidana/
+
+# =================================================
+# ATURAN DEFAULT DARI GITHUB 
+# =================================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +227,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+.spyderproject
+.spyproject
+.ropeproject
+/site
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+.ruff_cache/
